@@ -11,7 +11,7 @@ namespace Praktika3 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -20,13 +20,13 @@ namespace Praktika3 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -59,14 +59,14 @@ namespace Praktika3 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -101,7 +101,7 @@ namespace Praktika3 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(208, 69);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"Показать таблицу и экстремумы функции";
+			this->button1->Text = L"ГЏГ®ГЄГ Г§Г ГІГј ГІГ ГЎГ«ГЁГ¶Гі ГЁ ГЅГЄГ±ГІГ°ГҐГ¬ГіГ¬Г» ГґГіГ­ГЄГ¶ГЁГЁ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -111,7 +111,7 @@ namespace Praktika3 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(208, 69);
 			this->button2->TabIndex = 1;
-			this->button2->Text = L"Выход";
+			this->button2->Text = L"Г‚Г»ГµГ®Г¤";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -154,7 +154,7 @@ namespace Praktika3 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(151, 16);
 			this->label1->TabIndex = 6;
-			this->label1->Text = L"Введите значение XN";
+			this->label1->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ XN";
 			// 
 			// label2
 			// 
@@ -163,7 +163,7 @@ namespace Praktika3 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(149, 16);
 			this->label2->TabIndex = 7;
-			this->label2->Text = L"Введите значение XK";
+			this->label2->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ XK";
 			// 
 			// label3
 			// 
@@ -172,7 +172,7 @@ namespace Praktika3 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(151, 16);
 			this->label3->TabIndex = 8;
-			this->label3->Text = L"Введите значение XH";
+			this->label3->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ XH";
 			// 
 			// label4
 			// 
@@ -181,7 +181,7 @@ namespace Praktika3 {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(141, 16);
 			this->label4->TabIndex = 9;
-			this->label4->Text = L"Введите значение a";
+			this->label4->Text = L"Г‚ГўГҐГ¤ГЁГІГҐ Г§Г­Г Г·ГҐГ­ГЁГҐ a";
 			// 
 			// pictureBox1
 			// 
@@ -211,7 +211,7 @@ namespace Praktika3 {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(192, 16);
 			this->label5->TabIndex = 12;
-			this->label5->Text = L"Таблица значений функции";
+			this->label5->Text = L"Г’Г ГЎГ«ГЁГ¶Г  Г§Г­Г Г·ГҐГ­ГЁГ© ГґГіГ­ГЄГ¶ГЁГЁ";
 			// 
 			// label6
 			// 
@@ -220,7 +220,7 @@ namespace Praktika3 {
 			this->label6->Name = L"label6";
 			this->label6->Size = System::Drawing::Size(153, 16);
 			this->label6->TabIndex = 13;
-			this->label6->Text = L"Максим.знач.функции";
+			this->label6->Text = L"ГЊГ ГЄГ±ГЁГ¬.Г§Г­Г Г·.ГґГіГ­ГЄГ¶ГЁГЁ";
 			// 
 			// label7
 			// 
@@ -229,7 +229,7 @@ namespace Praktika3 {
 			this->label7->Name = L"label7";
 			this->label7->Size = System::Drawing::Size(147, 16);
 			this->label7->TabIndex = 14;
-			this->label7->Text = L"Миним.знач.функции";
+			this->label7->Text = L"ГЊГЁГ­ГЁГ¬.Г§Г­Г Г·.ГґГіГ­ГЄГ¶ГЁГЁ";
 			// 
 			// textBox5
 			// 
@@ -254,7 +254,7 @@ namespace Praktika3 {
 			this->label8->Name = L"label8";
 			this->label8->Size = System::Drawing::Size(68, 16);
 			this->label8->TabIndex = 17;
-			this->label8->Text = L"если x<=0";
+			this->label8->Text = L"ГҐГ±Г«ГЁ x<=0";
 			// 
 			// label9
 			// 
@@ -263,8 +263,7 @@ namespace Praktika3 {
 			this->label9->Name = L"label9";
 			this->label9->Size = System::Drawing::Size(76, 16);
 			this->label9->TabIndex = 18;
-			this->label9->Text = L"если 0<x<a";
-			this->label9->Click += gcnew System::EventHandler(this, &MyForm::label9_Click);
+			this->label9->Text = L"ГҐГ±Г«ГЁ 0<x<a";
 			// 
 			// label10
 			// 
@@ -273,7 +272,7 @@ namespace Praktika3 {
 			this->label10->Name = L"label10";
 			this->label10->Size = System::Drawing::Size(62, 16);
 			this->label10->TabIndex = 19;
-			this->label10->Text = L"если x>a";
+			this->label10->Text = L"ГҐГ±Г«ГЁ x>a";
 			// 
 			// MyForm
 			// 
@@ -302,7 +301,7 @@ namespace Praktika3 {
 			this->Controls->Add(this->button1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedToolWindow;
 			this->Name = L"MyForm";
-			this->Text = L"Цыбульский К.В.,23-кф";
+			this->Text = L"Г–Г»ГЎГіГ«ГјГ±ГЄГЁГ© ГЉ.Г‚.,23-ГЄГґ";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
@@ -352,7 +351,7 @@ namespace Praktika3 {
 			textBox6->Text = Convert::ToString(ymin);
 		}
 		else {
-			MessageBox::Show("Заполните, пожалуйста, данные","Ошибка ввода данных",
+			MessageBox::Show("Г‡Г ГЇГ®Г«Г­ГЁГІГҐ, ГЇГ®Г¦Г Г«ГіГ©Г±ГІГ , Г¤Г Г­Г­Г»ГҐ","ГЋГёГЁГЎГЄГ  ГўГўГ®Г¤Г  Г¤Г Г­Г­Г»Гµ",
 
 				MessageBoxButtons::OK, MessageBoxIcon::Exclamation
 
@@ -389,7 +388,7 @@ private: System::Void textBox1_Leave(System::Object^ sender, System::EventArgs^ 
 		}
 
 		if (a == false) {
-			MessageBox::Show("Параметр XN не является числом", "Ошибка ввода данных", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
+			MessageBox::Show("ГЏГ Г°Г Г¬ГҐГІГ° XN Г­ГҐ ГїГўГ«ГїГҐГІГ±Гї Г·ГЁГ±Г«Г®Г¬", "ГЋГёГЁГЎГЄГ  ГўГўГ®Г¤Г  Г¤Г Г­Г­Г»Гµ", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
 		}
 	}
 }
@@ -420,7 +419,7 @@ private: System::Void textBox2_Leave(System::Object^ sender, System::EventArgs^ 
 		}
 
 		if (a == false) {
-			MessageBox::Show("Параметр XK не является числом", "Ошибка ввода данных", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
+			MessageBox::Show("ГЏГ Г°Г Г¬ГҐГІГ° XK Г­ГҐ ГїГўГ«ГїГҐГІГ±Гї Г·ГЁГ±Г«Г®Г¬", "ГЋГёГЁГЎГЄГ  ГўГўГ®Г¤Г  Г¤Г Г­Г­Г»Гµ", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
 		}
 	}
 }
@@ -451,7 +450,7 @@ private: System::Void textBox3_Leave(System::Object^ sender, System::EventArgs^ 
 		}
 
 		if (a == false) {
-			MessageBox::Show("Параметр XH не является числом", "Ошибка ввода данных", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
+			MessageBox::Show("ГЏГ Г°Г Г¬ГҐГІГ° XH Г­ГҐ ГїГўГ«ГїГҐГІГ±Гї Г·ГЁГ±Г«Г®Г¬", "ГЋГёГЁГЎГЄГ  ГўГўГ®Г¤Г  Г¤Г Г­Г­Г»Гµ", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
 		}
 	}
 }
@@ -482,11 +481,9 @@ private: System::Void textBox4_Leave(System::Object^ sender, System::EventArgs^ 
 		}
 
 		if (a == false) {
-			MessageBox::Show("Параметр a не является числом", "Ошибка ввода данных", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
+			MessageBox::Show("ГЏГ Г°Г Г¬ГҐГІГ° a Г­ГҐ ГїГўГ«ГїГҐГІГ±Гї Г·ГЁГ±Г«Г®Г¬", "ГЋГёГЁГЎГЄГ  ГўГўГ®Г¤Г  Г¤Г Г­Г­Г»Гµ", MessageBoxButtons::OK, MessageBoxIcon::Exclamation);
 		}
 	}
-}
-private: System::Void label9_Click(System::Object^ sender, System::EventArgs^ e) {
 }
 };
 }
